@@ -79,7 +79,7 @@ function spaceship(_x, _y, _size, _speed) {
 
   this.checkbounds = function() {
     console.log(this.x);
-    if (this.x < windowWidth * 0.05) {
+    if (this.x < windowWidth * 0.03) {
       this.x = windowWidth * 0.8;
     }
   }
