@@ -101,3 +101,7 @@ function spaceship(_x, _y, _size, _speed) {
   }
 
 }
+
+function windowResized() {
+  resizeCanvas(0.8 * windowWidth, 0.8 * windowHeight);
+}
