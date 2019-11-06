@@ -1,8 +1,24 @@
 #centerQuad {
-  width: 1500px;
-	height: 800px;
+  width: 80%;
+	height: 80%;
 	background-color: black;
   box-shadow: 0px 0px 35px 15px rgba(0,0,0,1);
+
+  justify-content: center;
+  align-items: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+}
+
+#sliderContainer {
+  width: 200px;
+	height: 200px;
 
   justify-content: center;
   align-items: center;
@@ -19,7 +35,7 @@
 #size {
   position: absolute;
   left: 50%;
-  bottom: 170px;
+  bottom: 20%;
   text-align: center;
   transform: translate(-50%, -50%);
   color:#ffffff;
@@ -32,7 +48,7 @@
 .button {
   position: absolute;
   left: 50%;
-  top: 10vw;
+  top: 20%;
   transform: translate(-50%, -50%);
 	box-shadow: 0px 10px 14px -3px #276873;
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
